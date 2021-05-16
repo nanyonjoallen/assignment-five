@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> assign5</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="field-form-header">
+            <h3 class="field-header">Please fill in the fields below</h3>
+            <form class="comment-form" method="POST" action=".">
+                <div class="input-field">
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" required name="full_name" placeholder="allenah lee">
+                </div>
+                <div class="input-element">
+                    <label for="message">Message</label>
+                    <textarea name="message"  id="message" required cols="30" rows="10" resize="false"></textarea>
+                </div>
+                <input type="submit" value="Click">
+            </form>
+        </div>
+        <div class="comment-feed" id="feed">
+            <h3 class="comment-header">Your comments Below</h3>
+        </div>
+    </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
